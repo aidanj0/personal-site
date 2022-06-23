@@ -1,0 +1,29 @@
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    background-color: white;
+    width:100%;
+    border-bottom: 1.5px solid #D3D3D3;
+    letter-spacing: 1.5px;
+}
+
+.flex-item {
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.flex-item-rest {
+    border-left: 1.5px solid #D3D3D3;
+}
+
+.flex-item a {
+    color:#636363;
+    text-decoration: none;
+}
+
+.flex-item-main a {
+    color: black;
+    font-weight: bold;
+}

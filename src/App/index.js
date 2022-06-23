@@ -1,11 +1,13 @@
-import './index.css'
+// import './index.css'
+
+import Navigation from './components/Navigation'
+import NavBar from './components/NavBar'
 
 function App() {
   return (
     <div>
-      <h2>Hi there!</h2>
-      <p>The website is currently under construction as I replace my old portfolio site</p>
-      <p>Please feel free to reach out at aidanjohansson01@gmail.com in the meantime</p>
+      <NavBar />
+      <Navigation />
     </div>
   );
 }
