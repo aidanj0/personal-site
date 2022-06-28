@@ -1,13 +1,18 @@
 import React from 'react'
 
+import Body from '../components/Body'
+
 import './main.css'
 
 const Home = () => (
-    <div className="maindiv">
-        <p>Hi There!</p>
-        <p>The website is currently under construction as I replace my old portfolio site</p>
-        <p>Please feel free to reach out at aidanjohansson01@gmail.com in the meantime</p>
-    </div>
+    <Body>
+        <div className='topdiv'>
+            <h1>Welcome to the Site!</h1>
+        </div>
+        <div className='middiv'>
+            <p>Most pages are still incomplete (including this one) at the moment. Please feel free to send me an email at aidanjohansson01@gmail.com in the meantime!</p>
+        </div>
+    </Body>
 )
 
 export default Home

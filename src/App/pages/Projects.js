@@ -1,13 +1,15 @@
 import React from 'react';
 
+import Body from '../components/Body'
+
 import './main.css'
 
 const Projects = () => (
-    <div className="maindiv">
-        <p>Hi There!</p>
-        <p>The website is currently under construction as I replace my old portfolio site</p>
-        <p>Please feel free to reach out at aidanjohansson01@gmail.com in the meantime</p>
-    </div>
+    <Body>
+        <div className='topdiv'>
+            <h1>Projects</h1>
+        </div>
+    </Body>
 )
 
 export default Projects

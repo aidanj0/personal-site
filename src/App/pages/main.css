@@ -1,3 +1,19 @@
 .maindiv {
     padding-left:2%;
 }
+
+.topdiv {
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 5%;
+    padding-bottom:5%;
+    letter-spacing: 1.5px;
+    border-bottom:1.5px solid #D3D3D3;
+}
+
+.middiv {
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 5%;
+    padding-bottom:5%;
+}
