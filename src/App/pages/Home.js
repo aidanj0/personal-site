@@ -7,7 +7,7 @@ import './main.css'
 const Home = () => (
     <Body>
         <div className='topdiv'>
-            <h1>Welcome to the Site!</h1>
+            <h1>WELCOME TO THE SITE!</h1>
         </div>
         <div className='middiv'>
             <p>Most pages are still incomplete (including this one) at the moment. Please feel free to send me an email at aidanjohansson01@gmail.com in the meantime!</p>

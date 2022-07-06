@@ -7,7 +7,10 @@ import './main.css'
 const Contact = () => (
     <Body>
         <div className='topdiv'>
-            <h1>Contact</h1>
+            <h1>CONTACT</h1>
+        </div>
+        <div className='middiv'>
+            <p>Feel free to send me an email at aidanjohansson01@gmail.com !</p>
         </div>
     </Body>
 )
