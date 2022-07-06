@@ -1,0 +1,43 @@
+.sectiondiv {
+    letter-spacing: 1.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.collegetitle {
+    letter-spacing: 1.5px;
+    margin-bottom:0.75%;
+    font-size:16px;
+}
+
+.exptitle {
+    margin-bottom:0.5%;
+}
+
+.collegedesc {
+    margin-top:0;
+    padding-top:0;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    color:#808080;
+}
+
+h4 {
+    letter-spacing: 1.5px;
+    margin-bottom:1px;
+}
+
+ul {
+    list-style-position: inside;
+    margin-left: 0; 
+    padding-left: 0;
+}
+
+li {
+    font-size:14px;
+    margin-left:0;
+    color:#636363;
+    margin-bottom:0.75%;
+}
