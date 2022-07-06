@@ -5,11 +5,49 @@ import Body from '../components/Body'
 import './main.css'
 import './resume.css'
 
+// Text items
+const exp1title = 'Contributor Development Partnership (CDP) - Data Analyst Co-op'
+const exp1bullet1 = ''
+const exp1bullet2 = ''
+const exp1bullet3 = ''
+const exp2title = 'Northeastern University - Teaching Assistant, Discrete Structures (CS 1800)'
+const exp2bullet1 = 'Hosted weekly recitation sessions to review course material with students'
+const exp2bullet2 = 'Met with students in office hours to answer questions and provide assistance'
+const exp2bullet3 = 'Provided feedback and scoring on honors assignments'
+const exp3title = 'Surprise Youth Council - Council Member'
+const exp3bullet1 = 'Collaborated with a project group to write and film a series of educational videos for teenagers'
+const exp3bullet2 = 'Planned, hosted, and volunteered at a haunted house, community day of service, and other city-sponsored events'
+const exp3bullet3 = 'Met with the council for biweekly work sessions and discussions regarding community events and needs'
+const exp4title = 'Surprise Youth Justice Project - Jury Foreperson, Bailiff'
+const exp4bullet1 = 'Hosted Maricopa County Teen Court, a diversion program for juvenile defenders in the county'
+const exp4bullet2 = 'Participated in court as a bailiff, jury foreperson, and juror'
+const exp4bullet3 = 'Worked to provide restorative justice to the defendant, victim, and the community'
+
+// Returns the title for a section in the resume
+const section = (title) => (
+    <div className='sectiondiv'>
+        <h3>{title}</h3>
+    </div>
+)
+
+// Returns the title for a position in 'Experience'
+const exptitle = (titletext) => (
+    <div>
+        <h4 className='exptitle'>{titletext}</h4>
+    </div>
+)
+
+// Returns a bullet in 'Experience'
+const expitem = (bullet) => (
+    <li>
+        {bullet}
+    </li>
+)
+
+// Education section
 const education = (
     <div>
-        <div className='sectiondiv'>
-            <h3>EDUCATION</h3>
-        </div>
+        {section('EDUCATION')}
         <p className='collegetitle'>
             B.S. Computer Science
         </p>
@@ -19,127 +57,55 @@ const education = (
     </div>
 )
 
-const projects = (
-    <div>
-        <div className='sectiondiv'>
-            <h3>PROJECTS</h3>
-        </div>
-        <div>
-            <h4>Transit System Database Web App &nbsp;|&nbsp; JavaScript, React, SQL, Java, HTML, CSS</h4>
-            <ul>
-                <li>
-                Designed a web-based application used to interact with data in a city’s public transit system
-                </li>
-                <li>
-                Employed object-relational mapping to allow for interaction between the frontend and backend
-                </li>
-                <li>
-                Programmed the ability to create, delete, and update data in a mySQL Server for transit users, cards, and tickets
-                </li>
-            </ul>
-            <h4>Nenana Ice Classic Analysis & Prediction &nbsp;|&nbsp; R</h4>
-            <ul>
-                <li>
-                Analyzed historical weather data to predict when the Tanana River ice will break in Nenana, Alaska
-                </li>
-                <li>
-                Performed data cleaning, aggregation, and EDA on a range of datasets from Nenana and nearby towns
-                </li>
-                <li>
-                Created a linear regression model and ran a stepwise model selection to improve predictors
-                </li>
-                <li>
-                Verified the model through k-fold validation and explored the relation of attributes through dimension reduction
-                </li>
-            </ul>
-            <h4>Image Processor &nbsp;|&nbsp; Java, Swing</h4>
-            <ul>
-                <li>
-                Built an image-processing application capable of resizing, filtering, and transforming images of various file types
-                </li>
-                <li>
-                Utilized the MVC design pattern to allow for a flexible implementation with multiple view and controller options
-                </li>
-                <li>
-                Implemented a Swing GUI for finding, loading, viewing, processing, and saving pictures
-                </li>
-            </ul>
-        </div>
-    </div>
-)
-
+// Skills section
+/*
 const skills = (
-    <div className='sectiondiv'>
-        <h3>SKILLS</h3>
+    <div>
+        {section('SKILLS')}
     </div>
 )
+*/
 
+// Experience section
 const experience = (
     <div>
-        <div className='sectiondiv'>
-            <h3>EXPERIENCE</h3>
-        </div>
-
+        {section('EXPERIENCE')}
         <div>
-        <h4 className='exptitle'>Contributor Development Partnership (CDP) - Data Analyst Co-op </h4>
+            {exptitle(exp1title)}
             <p className='collegedesc'>
             July 2022 - Present
             </p>
             <ul>
-                <li>
-                 
-                </li>
-                <li>
-                 
-                </li>
-                <li>
-                 
-                </li>
+                {expitem(exp1bullet1)}
+                {expitem(exp1bullet2)}
+                {expitem(exp1bullet3)}
             </ul>
-            <h4 className='exptitle'>Northeastern University - Teaching Assistant, Discrete Structures (CS 1800) </h4>
+            {exptitle(exp2title)}
             <p className='collegedesc'>
             September 2021 – December 2021
             </p>
             <ul>
-                <li>
-                Hosted weekly recitation sessions to review course material with students
-                </li>
-                <li>
-                Met with students in office hours to answer questions and provide assistance
-                </li>
-                <li>
-                Provided feedback and scoring on honors assignments
-                </li>
+                {expitem(exp2bullet1)}
+                {expitem(exp2bullet2)}
+                {expitem(exp2bullet3)}
             </ul>
-            <h4 className='exptitle'>Surprise Youth Council - Council Member</h4>
+            {exptitle(exp3title)}
             <p className='collegedesc'>
             August 2019 - July 2020
             </p>
             <ul>
-                <li>
-                Collaborated with a project group to write and film a series of educational videos for teenagers
-                </li>
-                <li>
-                Planned, hosted, and volunteered at a haunted house, community day of service, and other city-sponsored events
-                </li>
-                <li>
-                Met with the council for biweekly work sessions and discussions regarding community events and needs
-                </li>
+                {expitem(exp3bullet1)}
+                {expitem(exp3bullet2)}
+                {expitem(exp3bullet3)}
             </ul>
-            <h4 className='exptitle'>Surprise Youth Justice Project - Jury Foreperson, Bailiff</h4>
+            {exptitle(exp4title)}
             <p className='collegedesc'>
             August 2019 - July 2020
             </p>
             <ul>
-                <li>
-                Hosted Maricopa County Teen Court, a diversion program for juvenile defenders in the county
-                </li>
-                <li>
-                Participated in court as a bailiff, jury foreperson, and juror
-                </li>
-                <li>
-                Worked to provide restorative justice to the defendant, victim, and the community
-                </li>
+                {expitem(exp4bullet1)}
+                {expitem(exp4bullet2)}
+                {expitem(exp4bullet3)}
             </ul>
         </div>
     </div>
@@ -153,7 +119,6 @@ const Resume = () => (
         <div className='middiv'>
             {education}
             {experience}
-            {projects}
         </div>
     </Body>
 )
