@@ -6,18 +6,40 @@
     padding-left: 4%;
     padding-right: 4%;
     margin-top: 5%;
-    padding-bottom:5%;
+    padding-bottom:4%;
     letter-spacing: 1.5px;
     border-bottom:1.5px solid #D3D3D3;
+    font-weight: 600;
+    color: #383838;
+}
+
+.subdiv {
+    color: #808080;
+    font-weight: 400;
+    font-size: 10pt;
 }
 
 .middiv {
     padding-left: 4%;
     padding-right: 4%;
     margin-top: 5%;
-    padding-bottom:5%;
+    padding-bottom:4%;
 }
 
 p {
     color:#636363;
+}
+
+a {
+    color:#636363;
+}
+
+.contacticonbox {
+    display:flex;
+    padding-top:1%;
+    padding-bottom:1%;
+}
+
+.contacticon {
+    margin-right: 0.8%;
 }
