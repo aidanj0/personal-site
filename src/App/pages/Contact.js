@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Body from '../components/Body'
+import { SocialIcon } from 'react-social-icons';
 
 import './main.css'
 
@@ -10,7 +11,27 @@ const Contact = () => (
             <h1>CONTACT</h1>
         </div>
         <div className='middiv'>
-            <p>Feel free to send me an email at aidanjohansson01@gmail.com !</p>
+            <p>Feel free to send me an email at <a href='mailto:aidanjohansson01@gmail'>aidanjohansson01@gmail.com</a> or reach out to any of my socials!</p>
+            <div className='contacticonbox'>
+            <div className='contacticon'>
+                <SocialIcon url="https://github.com/aidanj0" bgColor="#A9A9A9" style={{ height: 25, width: 25 }}/>
+            </div>
+            <div className='contacticon'>
+                <SocialIcon url="https://www.linkedin.com/in/aidan-johansson/" bgColor="#A9A9A9" style={{ height: 25, width: 25 }}/>
+            </div>
+            <div className='contacticon'>
+                <SocialIcon url="https://www.twitter.com/aidanjohansson/" bgColor="#A9A9A9" style={{ height: 25, width: 25 }}/>
+            </div>
+            <div className='contacticon'>
+                <SocialIcon url="https://www.instagram.com/aidanj0/" bgColor="#A9A9A9" style={{ height: 25, width: 25 }}/>
+            </div>
+            <div className='contacticon'>
+                <SocialIcon url="https://open.spotify.com/user/ltj67y8dffmxztmkwyus54uqu" bgColor="#A9A9A9" style={{ height: 25, width: 25 }}/>
+            </div>
+            <div className='contacticon'>
+                <SocialIcon url="mailto:aidanjohansson01@gmail.com" bgColor="#A9A9A9" style={{ height: 25, width: 25 }}/>
+            </div>
+        </div>
         </div>
     </Body>
 )

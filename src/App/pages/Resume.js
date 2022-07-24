@@ -6,19 +6,19 @@ import './main.css'
 import './resume.css'
 
 // Text items
-const exp1title = 'Contributor Development Partnership (CDP) - Data Analyst Co-op'
-const exp1bullet1 = ''
-const exp1bullet2 = ''
-const exp1bullet3 = ''
-const exp2title = 'Northeastern University - Teaching Assistant, Discrete Structures (CS 1800)'
+const exp1title = 'Data Science Co-op - Contributor Development Partnership (CDP)'
+const exp1bullet1 = 'Performing data cleaning, aggregation, and EDA on a range of datasets'
+const exp1bullet2 = 'Researching and contrasting several data mining toolkits and products for specific use cases'
+const exp1bullet3 = 'Detecting key predictors for potential public media donors using predictive modeling in Python'
+const exp2title = 'Teaching Assistant, Discrete Structures (CS 1800) - Northeastern University'
 const exp2bullet1 = 'Hosted weekly recitation sessions to review course material with students'
 const exp2bullet2 = 'Met with students in office hours to answer questions and provide assistance'
 const exp2bullet3 = 'Provided feedback and scoring on honors assignments'
-const exp3title = 'Surprise Youth Council - Council Member'
+const exp3title = 'Council Member - Surprise Youth Council'
 const exp3bullet1 = 'Collaborated with a project group to write and film a series of educational videos for teenagers'
 const exp3bullet2 = 'Planned, hosted, and volunteered at a haunted house, community day of service, and other city-sponsored events'
 const exp3bullet3 = 'Met with the council for biweekly work sessions and discussions regarding community events and needs'
-const exp4title = 'Surprise Youth Justice Project - Jury Foreperson, Bailiff'
+const exp4title = 'Jury Foreperson, Bailiff - Surprise Youth Justice Project'
 const exp4bullet1 = 'Hosted Maricopa County Teen Court, a diversion program for juvenile defenders in the county'
 const exp4bullet2 = 'Participated in court as a bailiff, jury foreperson, and juror'
 const exp4bullet3 = 'Worked to provide restorative justice to the defendant, victim, and the community'
@@ -49,7 +49,7 @@ const education = (
     <div>
         {section('EDUCATION')}
         <p className='collegetitle'>
-            B.S. Computer Science
+            B.S. Data Science
         </p>
         <p className='collegedesc'>
             Northeastern University, Khoury College of Computer Sciences. 2020-2024
