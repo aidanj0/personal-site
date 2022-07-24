@@ -1,0 +1,59 @@
+.footerouterdiv {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 5%;
+}
+
+.profilebox {
+    margin-top: 5%;
+    padding-top: 5%;
+    border-top: 1.5px solid #D3D3D3;
+    display:flex;
+    justify-content: center;
+}
+
+.profilepic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.namebox {
+    font-size: 36pt;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    color: #383838;
+}
+
+.centered {
+    display:flex;
+    justify-content: center;
+    letter-spacing: 1.5px;
+}
+
+.lighterlink {
+    color: #808080;
+}
+
+h4 {
+    color: #383838;
+}
+
+.abouttitle {
+    margin-top: 5%;
+    padding-top: 2.5%;
+    border-top: 1.5px solid #D3D3D3;
+    letter-spacing: 1.5px;
+}
+
+.iconsbox{
+    margin-top: 5%;
+    padding-top: 3%;
+    border-top: 1.5px solid #D3D3D3;
+    display:flex;
+    padding-bottom: 5%;
+}
+
+.icon {
+    margin-right: 1%;
+}
