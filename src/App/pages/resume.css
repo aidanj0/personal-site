@@ -12,6 +12,12 @@
     font-size:16px;
 }
 
+.skillsline {
+    font: size 14px;
+    margin-bottom:0.50%;
+    letter-spacing: 1.25px;
+}
+
 .exptitle {
     margin-bottom:0.5%;
     font-weight:500;

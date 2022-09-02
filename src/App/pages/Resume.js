@@ -57,15 +57,6 @@ const education = (
     </div>
 )
 
-// Skills section
-/*
-const skills = (
-    <div>
-        {section('SKILLS')}
-    </div>
-)
-*/
-
 // Experience section
 const experience = (
     <div>
@@ -111,6 +102,25 @@ const experience = (
     </div>
 )
 
+// Skills section
+const skills = (
+    <div>
+        {section('SKILLS')}
+        <p className='skillsline'>
+            <b>Languages: </b>Python, C++, Java, R, JavaScript, SQL, C, HTML, CSS
+        </p>
+        <p className='skillsline'>
+            <b>Libraries/Frameworks: </b>React, Matplotlib, NumPy, pandas, SciPy, tidyverse
+        </p>
+        <p className='skillsline'>
+            <b>Developer Tools: </b>IntelliJ, Git, mySQL, VSCode, Eclipse
+        </p>
+        <p className='skillsline'>
+            <b>Applications: </b>Tableau, Google Suite, Microsoft Office, Salesforce
+        </p>
+    </div>
+)
+
 const Resume = () => (
     <Body>
         <div className='topdiv'>
@@ -119,6 +129,7 @@ const Resume = () => (
         <div className='middiv'>
             {education}
             {experience}
+            {skills}
         </div>
     </Body>
 )
