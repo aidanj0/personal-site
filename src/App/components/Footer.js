@@ -20,7 +20,7 @@ const Footer = () => (
         <div className='abouttitle'>
             <h4>ABOUT</h4>
         </div>
-        <p>Hi, I'm Aidan. I'm currently studying Data Science at Northeastern University and working as a Data Science Co-op at <a href='https://cdpcommunity.org'>CDP</a>.</p>
+        <p>Hi, I'm Aidan. I'm currently studying Computer Science at Northeastern University and working as a Data Science Co-op at <a href='https://cdpcommunity.org'>CDP</a>.</p>
         <div className='iconsbox'>
             <div className='icon'>
                 <SocialIcon url="https://github.com/aidanj0" bgColor="#A9A9A9" style={{ height: 30, width: 30 }}/>
