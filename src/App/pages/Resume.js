@@ -6,6 +6,7 @@ import './main.css'
 import './resume.css'
 
 // Text items
+const exp0title = 'Incoming Software Development Engineer Intern - Amazon Web Services (AWS)'
 const exp1title = 'Data Science Co-op - Contributor Development Partnership (CDP)'
 const exp1bullet1 = 'Performing data cleaning, aggregation, and EDA on a range of datasets'
 const exp1bullet2 = 'Researching and contrasting several data mining toolkits and products for specific use cases'
@@ -49,7 +50,7 @@ const education = (
     <div>
         {section('EDUCATION')}
         <p className='collegetitle'>
-            B.S. Data Science
+            B.S. Computer Science
         </p>
         <p className='collegedesc'>
             Northeastern University, Khoury College of Computer Sciences. 2020-2024
@@ -62,6 +63,10 @@ const experience = (
     <div>
         {section('EXPERIENCE')}
         <div>
+            {exptitle(exp0title)}
+            <p className='collegedesc'>
+            May 2023 - Present
+            </p>
             {exptitle(exp1title)}
             <p className='collegedesc'>
             July 2022 - Present
