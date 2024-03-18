@@ -6,6 +6,7 @@ import './main.css'
 import './resume.css'
 
 // Text items
+const expn1title = 'Software Engineer Co-op - SLS Consulting, LLC'
 const exp0title = 'Software Development Engineer Intern - Amazon Web Services (AWS)'
 const exp1title = 'Data Science Co-op - Contributor Development Partnership (CDP)'
 const exp1bullet1 = 'Performing data cleaning, aggregation, and EDA on a range of datasets'
@@ -63,10 +64,20 @@ const experience = (
     <div>
         {section('EXPERIENCE')}
         <div>
+            {exptitle(expn1title)}
+            <p className='collegedesc'>
+            September 2023 - Present
+            </p>
+            <ul>
+                {expitem("todo :)")}
+            </ul>
             {exptitle(exp0title)}
             <p className='collegedesc'>
-            May 2023 - Present
+            May 2023 - August 2023
             </p>
+            <ul>
+                {expitem("todo :)")}
+            </ul>
             {exptitle(exp1title)}
             <p className='collegedesc'>
             July 2022 - Present

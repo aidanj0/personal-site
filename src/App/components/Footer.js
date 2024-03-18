@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './Footer.css'
-import profile from './profilepic.JPEG'
+import profile from './profilepic.png'
 import { SocialIcon } from 'react-social-icons';
 
 const Footer = () => (
@@ -23,22 +23,22 @@ const Footer = () => (
         <p>Hi, I'm Aidan. I'm currently studying Computer Science at Northeastern University and working as a Software Development Engineer Intern at <a href='https://aws.amazon.com/'>AWS</a>.</p>
         <div className='iconsbox'>
             <div className='icon'>
-                <SocialIcon url="https://github.com/aidanj0" bgColor="#A9A9A9" style={{ height: 30, width: 30 }}/>
+                <SocialIcon url="https://github.com/aidanj0" bgColor="#a6d189" style={{ height: 30, width: 30 }}/>
             </div>
             <div className='icon'>
-                <SocialIcon url="https://www.linkedin.com/in/aidan-johansson/" bgColor="#A9A9A9" style={{ height: 30, width: 30 }}/>
+                <SocialIcon url="https://www.linkedin.com/in/aidan-johansson/" bgColor="#e5c890" style={{ height: 30, width: 30 }}/>
             </div>
             <div className='icon'>
-                <SocialIcon url="https://www.twitter.com/aidanjohansson/" bgColor="#A9A9A9" style={{ height: 30, width: 30 }}/>
+                <SocialIcon url="https://www.twitter.com/aidanjohansson/" bgColor="#ef9f76" style={{ height: 30, width: 30 }}/>
             </div>
             <div className='icon'>
-                <SocialIcon url="https://www.instagram.com/aidanj0/" bgColor="#A9A9A9" style={{ height: 30, width: 30 }}/>
+                <SocialIcon url="https://www.instagram.com/aidanj0/" bgColor="#e78284" style={{ height: 30, width: 30 }}/>
             </div>
             <div className='icon'>
-                <SocialIcon url="https://open.spotify.com/user/ltj67y8dffmxztmkwyus54uqu" bgColor="#A9A9A9" style={{ height: 30, width: 30 }}/>
+                <SocialIcon url="https://open.spotify.com/user/ltj67y8dffmxztmkwyus54uqu" bgColor="#ca9ee6" style={{ height: 30, width: 30 }}/>
             </div>
             <div className='icon'>
-                <SocialIcon url="mailto:aidanjohansson01@gmail.com" bgColor="#A9A9A9" style={{ height: 30, width: 30 }}/>
+                <SocialIcon url="mailto:aidanjohansson01@gmail.com" bgColor="#8caaee" style={{ height: 30, width: 30 }}/>
             </div>
         </div>
     </div>

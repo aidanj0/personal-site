@@ -7,7 +7,7 @@
 .profilebox {
     margin-top: 5%;
     padding-top: 5%;
-    border-top: 1.5px solid #D3D3D3;
+    border-top: 1.5px solid #c6d0f5;
     display:flex;
     justify-content: center;
 }
@@ -22,7 +22,7 @@
     font-size: 36pt;
     letter-spacing: 1.5px;
     font-weight: 600;
-    color: #383838;
+    color: #ca9ee6;
 }
 
 .centered {
@@ -32,24 +32,24 @@
 }
 
 .lighterlink {
-    color: #808080;
+    color: #babbf1;
 }
 
 h4 {
-    color: #383838;
+    color: #ca9ee6;
 }
 
 .abouttitle {
     margin-top: 5%;
     padding-top: 2.5%;
-    border-top: 1.5px solid #D3D3D3;
+    border-top: 1.5px solid #c6d0f5;
     letter-spacing: 1.5px;
 }
 
 .iconsbox{
     margin-top: 5%;
     padding-top: 3%;
-    border-top: 1.5px solid #D3D3D3;
+    border-top: 1.5px solid #c6d0f5;
     display:flex;
     padding-bottom: 5%;
 }

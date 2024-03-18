@@ -10,6 +10,7 @@
     letter-spacing: 1.5px;
     margin-bottom:0.75%;
     font-size:16px;
+    color: #babbf1;
 }
 
 .skillsline {
@@ -21,6 +22,7 @@
 .exptitle {
     margin-bottom:0.5%;
     font-weight:500;
+    color: #babbf1;
 }
 
 .collegedesc {
@@ -28,11 +30,12 @@
     padding-top:0;
     font-size: 14px;
     letter-spacing: 1.5px;
-    color:#808080;
+    color:#babbf1;
 }
 
 h3 {
     font-weight:600;
+    color: #ca9ee6;
 }
 
 h4 {
@@ -50,6 +53,10 @@ ul {
 li {
     font-size:14px;
     margin-left:0;
-    color:#636363;
+    color:#c6d0f5;
     margin-bottom:0.75%;
+}
+
+b {
+    color: #babbf1
 }
