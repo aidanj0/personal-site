@@ -7,7 +7,7 @@
 .profilebox {
     margin-top: 5%;
     padding-top: 5%;
-    border-top: 1.5px solid #c6d0f5;
+    border-top: 1.5px solid #51576d;
     display:flex;
     justify-content: center;
 }
@@ -42,14 +42,14 @@ h4 {
 .abouttitle {
     margin-top: 5%;
     padding-top: 2.5%;
-    border-top: 1.5px solid #c6d0f5;
+    border-top: 1.5px solid #51576d;
     letter-spacing: 1.5px;
 }
 
 .iconsbox{
     margin-top: 5%;
     padding-top: 3%;
-    border-top: 1.5px solid #c6d0f5;
+    border-top: 1.5px solid #51576d;
     display:flex;
     padding-bottom: 5%;
 }
