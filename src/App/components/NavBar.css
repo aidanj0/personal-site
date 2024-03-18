@@ -1,9 +1,9 @@
 .flex-container {
     display:flex;
     flex-direction: row;
-    background-color: white;
+    background-color: #232634;
     width:100%;
-    border-bottom: 1.5px solid #D3D3D3;
+    border-bottom: 1.5px solid #c6d0f5;
     letter-spacing: 1.5px;
 }
 
@@ -18,21 +18,21 @@
 }
 
 .non-second {
-    border-left: 1.5px solid #D3D3D3;
+    border-left: 1.5px solid #c6d0f5;
 }
 
 .flex-item-main {
     padding-bottom: 1.5%;
     padding-top: 1.5%;
-    border-right: 1.5px solid #D3D3D3;
+    border-right: 1.5px solid #c6d0f5;
 }
 
 .flex-item a {
-    color:#808080;
+    color:#babbf1;
     text-decoration: none;
 }
 
 .flex-item-main a {
-    color: #383838;
+    color: #ca9ee6;
     font-weight: 600;
 }
