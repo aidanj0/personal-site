@@ -1,5 +1,9 @@
-export const Header = () => (
-  <div className='bg-latte-crust'>
-    <p>hi</p>
-  </div>
-);
+export const Header = () => {
+  return (
+    <div className="bg-theme-crust">
+      <div>
+        <button></button>
+      </div>
+    </div>
+  );
+};
