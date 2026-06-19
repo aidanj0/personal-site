@@ -1,9 +1,5 @@
-import Link from "next/link";
+"use client";
 
 export default function SubPage() {
-  return (
-  <>
-    <Link href="..">back</Link>
-  </>
-  );
+  return <></>;
 }
