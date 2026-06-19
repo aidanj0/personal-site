@@ -1,11 +1,5 @@
-import Link from "next/link";
+"use client";
 
 export default function Home() {
-  return (
-    <>
-      <Link href="/subdir">
-        <p>subdir</p>
-      </Link>
-    </>
-  );
+  return <></>;
 }
